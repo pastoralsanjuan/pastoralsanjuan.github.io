@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-/* .loader {
+.loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -20,7 +20,7 @@ body {
   z-index: 9999;
   background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
   opacity: .8;
-} */
+}
 .rk-container {
   margin-right: auto;
   margin-left: auto;
