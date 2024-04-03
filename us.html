@@ -1,129 +1,143 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Pastoral | Nosotros</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/LogopastoralO.jpg">
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-  </head>
-  <body class="top-fixed">
-    <div class="loader"></div>
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo">
-          <a href="./index.html"> &nbsp; &nbsp; Pastoral &nbsp;Juvenil</a>
-        </h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Inicio</a>
-            </li>
-            <li class="rk-menu__item"><a href="#" class="rk-menu__link">Nosotros</a>
-            </li>
-            <li class="rk-menu__item"><a href="about-item.html" class="rk-menu__link">Conócenos</a>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Dirección</a>
-            </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">¡Únete!</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <style>
-      .hash-link {
-        position: relative;
-      }
-      .hash-link:before {
-        content: '#';
-        opacity: 0;
-        position: absolute;
-        right: 100%;
-        transform: translatex(.25em);
-        transition: .3s;
-      }
-      .hash-link:hover:before {
-        opacity: 1;
-        transform: translatex(0);
-      }
-      
-      .layout-ctrl-input:checked + .demo-switch {
-        color: #a0a0a0;
-      }
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Pastoral | Nosotros</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/LogopastoralO.jpg">
+  <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
+  <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
+  <link rel="stylesheet" href="assets/css/urku.css">
+</head>
+
+<body class="top-fixed">
+  <div class="loader"></div>
+  <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+    <label for="mobile-menu">
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+    </label>
+    <div class="ae-container-fluid rk-topbar">
+      <h1 class="rk-logo">
+        <a href="./index.html"> &nbsp; &nbsp; Pastoral &nbsp;Juvenil</a>
+      </h1>
+      <nav class="rk-navigation">
+        <ul class="rk-menu">
+          <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Inicio</a>
+          </li>
+          <li class="rk-menu__item"><a href="#" class="rk-menu__link">Nosotros</a>
+          </li>
+          <li class="rk-menu__item"><a href="about-item.html" class="rk-menu__link">Conócenos</a>
+          </li>
+          <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Dirección</a>
+          </li>
+          <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">¡Únete!</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <style>
+    .hash-link {
+      position: relative;
+    }
+
+    .hash-link:before {
+      content: '#';
+      opacity: 0;
+      position: absolute;
+      right: 100%;
+      transform: translatex(.25em);
+      transition: .3s;
+    }
+
+    .hash-link:hover:before {
+      opacity: 1;
+      transform: translatex(0);
+    }
+
+    .layout-ctrl-input:checked+.demo-switch {
+      color: #a0a0a0;
+    }
+
+    .demo-switch {
+      cursor: pointer;
+      display: none;
+      height: 32px;
+      transition: color .3s;
+      width: 28px;
+    }
+
+    .demo-switch:hover {
+      color: #a0a0a0;
+    }
+
+    .demo-switch svg {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media (min-width: 40em) {
       .demo-switch {
-        cursor: pointer;
-        display: none;
-        height: 32px;
-        transition: color .3s;
-        width: 28px;
+        display: inline-block !important;
       }
-      .demo-switch:hover {
-        color: #a0a0a0;
-      }
-      .demo-switch svg {
-        height: 100%;
-        width: 100%;
-      }
-      
-      @media (min-width: 40em) {
-        .demo-switch {
-          display: inline-block !important;
-        }
-      }
-      
-    </style>
-    <br><br>
-    <section class="ae-container-fluid ae-container-fluid--full rk-main">
-      <div class="item-inside__meta">
-        <h1 class="ae-u-bolder rk-portfolio-title ">Información</h1>
-      </div>
-      <div class="ae-container-fluid ae-container-fluid--inner">
-        <div class="ae-grid ae-grid au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-12">
-            <h2 id="portfolio-items">¿Qué hacemos?</h2>
-            <h2 id="portfolio-items">¿Quiénes somos?</h2>
-            <h5>
-              Estas son dos de las preguntas que nos hacen cotidianamente, y nos alegra el poder compartirles la descripción de lo que es Pastoral Juvenil.
-            </h5>
-            <br><br>
-            <div class="ae-grid">
-              <div class="ae-grid ae-grid--collapse">
-                <div class="ae-grid__item item-lg-6">
-                  <img loading="eager" src="assets/img/Pastoral.jpg" alt="">
-                </div>
-                <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
-                  <p class="au-mb-3">“Es la acción organizada de la Iglesia para acompañar a los jóvenes a descubrir, seguir y comprometerse con Jesucristo y su mensaje, para que transformados en hombres y mujeres nuevos, e integrando su fe y su vida, se conviertan en protagonistas (agentes activos) de la construcción de la Civilización del Amor”.</p>
-                </div>
+    }
+  </style>
+  <br><br>
+  <section class="ae-container-fluid ae-container-fluid--full rk-main">
+    <div class="item-inside__meta">
+      <h1 class="ae-u-bolder rk-portfolio-title ">Información</h1>
+    </div>
+    <div class="ae-container-fluid ae-container-fluid--inner">
+      <div class="ae-grid ae-grid au-xs-ptp-1">
+        <div class="ae-grid__item item-lg-12">
+          <h2 id="portfolio-items">¿Qué hacemos?</h2>
+          <h2 id="portfolio-items">¿Quiénes somos?</h2>
+          <h5>
+            Estas son dos de las preguntas que nos hacen cotidianamente, y nos alegra el poder compartirles la
+            descripción de lo que es Pastoral Juvenil.
+          </h5>
+          <br><br>
+          <div class="ae-grid">
+            <div class="ae-grid ae-grid--collapse">
+              <div class="ae-grid__item item-lg-6">
+                <img loading="eager" src="assets/img/Pastoral.jpg" alt="">
+              </div>
+              <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
+                <p class="au-mb-3">“Es la acción organizada de la Iglesia para acompañar a los jóvenes a descubrir,
+                  seguir y comprometerse con Jesucristo y su mensaje, para que transformados en hombres y mujeres
+                  nuevos, e integrando su fe y su vida, se conviertan en protagonistas (agentes activos) de la
+                  construcción de la Civilización del Amor”.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="ae-grid ae-grid au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-12">
-            <h2 id="main-header">¿Qué significa hacer pastoral?
-            </h2>
-              Pastoral se refiere al cuidado y asesoramiento espiritual proporcionado por pastores, capellanes y otros líderes religiosos a miembros de sus iglesias o congregaciones o a miembros de otras confesiones aunque, igualmente, se puede relacionar con la labor religiosa de los ministros.
-          </div>
+      </div>
+      <div class="ae-grid ae-grid au-xs-ptp-1">
+        <div class="ae-grid__item item-lg-12">
+          <h2 id="main-header">¿Qué significa hacer pastoral?
+          </h2>
+          Pastoral se refiere al cuidado y asesoramiento espiritual proporcionado por pastores, capellanes y otros
+          líderes religiosos a miembros de sus iglesias o congregaciones o a miembros de otras confesiones aunque,
+          igualmente, se puede relacionar con la labor religiosa de los ministros.
         </div>
-        <div class="ae-grid ae-grid au-xs-ptp-1">
-          <div class="ae-grid__item item-lg-12">
-            <h2 id="plugin-pehoverimage">¿Cuál es la importancia de la Pastoral Juvenil?
-            </h2>
-              La prioridad de toda pastoral juvenil es aquélla de fortalecer a los jóvenes en su relación con Jesucristo. Ahora la JMJ permite a los muchísimos jóvenes experimentar una efusión del Espíritu Santo que se destaca precisamente por el encuentro personal con Cristo, descubierto como persona viva.
+      </div>
+      <div class="ae-grid ae-grid au-xs-ptp-1">
+        <div class="ae-grid__item item-lg-12">
+          <h2 id="plugin-pehoverimage">¿Cuál es la importancia de la Pastoral Juvenil?
+          </h2>
+          La prioridad de toda pastoral juvenil es aquélla de fortalecer a los jóvenes en su relación con Jesucristo.
+          Ahora la JMJ permite a los muchísimos jóvenes experimentar una efusión del Espíritu Santo que se destaca
+          precisamente por el encuentro personal con Cristo, descubierto como persona viva.
         </div>
         <div class="ae-container-fluid au-pt-4 au-pb-4">
           <div class="group-buttons">
@@ -138,81 +152,98 @@
           </div>
         </div>
       </div>
-    </section>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2024 Pastoral Juvenil San Juan </span> Todos los derechos reservados.</p>
-        </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center">
-          <a href="https://www.facebook.com/pastoralsj23" title="Facebook" class="rk-social-btn ">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 45 45">
-              <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#2aa4f4"></stop>
-                <stop offset="1" stop-color="#007ad9"></stop>
-              </linearGradient>
-              <path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path>
-              <path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/pastoral.san.juan/" title="Instagram" class="rk-social-btn ">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 45 45">
-              <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fd5"></stop>
-                <stop offset=".328" stop-color="#ff543f"></stop>
-                <stop offset=".348" stop-color="#fc5245"></stop>
-                <stop offset=".504" stop-color="#e64771"></stop>
-                <stop offset=".643" stop-color="#d53e91"></stop>
-                <stop offset=".761" stop-color="#cc39a4"></stop>
-                <stop offset=".841" stop-color="#c837ab"></stop>
-              </radialGradient>
-              <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-              <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#4168c9"></stop>
-                <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
-              </radialGradient>
-              <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-              <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path>
-              <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
-              <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
-            </svg>
-          </a>
-        </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">pastoral.sanjuan.23@gmail.com </a></span></p>
-          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
-        </div>
+  </section>
+  <footer class="ae-container-fluid rk-footer ">
+    <div class="ae-grid ae-grid--collapse">
+      <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
+        <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2024
+            Pastoral Juvenil San Juan </span> Todos los derechos reservados.</p>
       </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(window).load(function() {
-          $(".loader").fadeOut("slow");
-      });
-      </script>
-    <script src="assets/js/svg4everybody.min.js"></script>
-    <script>svg4everybody();</script>
-    <script src="assets/js/main.min.js"></script>
-    <script src="assets/js/pe-navscroll.min.js"></script>
-    <script>
-      /// navScroll init
-      peNavScroll.init({
-        nav:'.rk-navigation',
-        class:'active',
-        duration: 500,
-        hashChange: true,
-        offset: 50,
-        allLinks: true,
-        easingFunction: easing.easeInOutCubic
-      });
-      
-      //- Select Code
-      var pres = document.querySelectorAll('pre');
-      [].slice.call(pres).forEach(function(elem, index){
-        pres[index].addEventListener('click', function(){
-          SelectText(this)
-        })
+      <div class="ae-grid__item item-lg-4 au-xs-ta-center">
+        <a href="https://www.facebook.com/pastoralsj23" title="Facebook" class="rk-social-btn ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 45 45">
+            <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#2aa4f4"></stop>
+              <stop offset="1" stop-color="#007ad9"></stop>
+            </linearGradient>
+            <path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)"
+              d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path>
+            <path fill="#fff"
+              d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/pastoral.san.juan/" title="Instagram" class="rk-social-btn ">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 45 45">
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#fd5"></stop>
+              <stop offset=".328" stop-color="#ff543f"></stop>
+              <stop offset=".348" stop-color="#fc5245"></stop>
+              <stop offset=".504" stop-color="#e64771"></stop>
+              <stop offset=".643" stop-color="#d53e91"></stop>
+              <stop offset=".761" stop-color="#cc39a4"></stop>
+              <stop offset=".841" stop-color="#c837ab"></stop>
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+              d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+            </path>
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813"
+              gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#4168c9"></stop>
+              <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+              d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+            </path>
+            <path fill="#fff"
+              d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z">
+            </path>
+            <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+            <path fill="#fff"
+              d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z">
+            </path>
+          </svg>
+        </a>
+      </div>
+      <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
+        <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder">
+            <a href="#0" class="rk-dark-color ">pastoral.sanjuan.23@gmail.com </a></span></p>
+        <p class="rk-footer__text rk-footer__by">Theme by <a href="#0" class="ae-u-bolder">Pixeden.</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $(".loader").fadeOut("slow");
+    });
+  </script>
+  <script src="assets/js/svg4everybody.min.js"></script>
+  <script>svg4everybody();</script>
+  <script src="assets/js/main.min.js"></script>
+  <script src="assets/js/pe-navscroll.min.js"></script>
+  <script>
+    /// navScroll init
+    peNavScroll.init({
+      nav: '.rk-navigation',
+      class: 'active',
+      duration: 500,
+      hashChange: true,
+      offset: 50,
+      allLinks: true,
+      easingFunction: easing.easeInOutCubic
+    });
+
+    //- Select Code
+    var pres = document.querySelectorAll('pre');
+    [].slice.call(pres).forEach(function (elem, index) {
+      pres[index].addEventListener('click', function () {
+        SelectText(this)
       })
-    </script>
-  </body>
+    })
+  </script>
+</body>
+
 </html>
