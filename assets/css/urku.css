@@ -2196,6 +2196,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-bottom: 4.2rem;
 }
 
+.rk-menu__link:hover {
+  color: tomato;
+}
+
 .rk-menu__sub {
   background-color: white;
   left: 0;
