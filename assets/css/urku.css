@@ -109,6 +109,7 @@ body {
 }
 
 .rk-logo {
+  color: #000;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
@@ -268,9 +269,12 @@ body {
 }
 
 .rk-footer {
-  background: linear-gradient(#ffffff, #e7e7e7);
-  margin-top: 10.5rem;
+  background: linear-gradient( #8a3e12, #8f8f8f);
+  margin-top: 8.2rem;
   margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 60px;
+  opacity: .8;
 }
 
 .rk-footer__text {
@@ -284,6 +288,7 @@ body {
 }
 
 .rk-footer__copy {
+  color: black;
   letter-spacing: .4px;
 }
 
@@ -297,6 +302,7 @@ body {
 }
 
 .rk-footer__by {
+  color: #000;
   letter-spacing: .7px;
 }
 
@@ -527,6 +533,18 @@ body {
     margin-left: -4px;
     margin-right: -4px;
   }
+}
+
+.rk-img-top {
+  border-radius: 20px;
+}
+
+.rk-img-body {
+  border-radius: 25px;
+}
+
+.rk-imgs {
+  border-radius: 30px;
 }
 
 .rk-item {
@@ -1436,6 +1454,7 @@ body {
 
 .rk-portfolio-title {
   letter-spacing: .0359em;
+  color:white;
 }
 
 .rk-portfolio-category {
@@ -1629,7 +1648,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
   width: 78.5%;
 }
 
+li {
+  color: white;
+}
+
 .blog-info {
+  color: white;
   margin-top: 4rem;
 }
 
@@ -1950,8 +1974,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .arrow-button--center {
+  color: white;
   margin-left: auto;
   margin-right: auto;
+}
+.arrow-button--center:hover {
+  opacity: .8;
 }
 
 @media (min-width: 75em) {
@@ -2201,7 +2229,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .rk-menu__sub {
-  background-color: white;
+  background-color: rgb(96, 51, 51);
   left: 0;
   list-style: none;
   margin: 0;
